@@ -33,8 +33,12 @@ public class THAPP
 { public static void main(String args[]) 
   {  J j=new J();
       j.start();
+   String tName=j.getName();
+   System.out.println(tName);
 
     K k=new K();
       k.start();
+    String tName2=k.getName();
+   System.out.println(tName2);
   }
 }//class
